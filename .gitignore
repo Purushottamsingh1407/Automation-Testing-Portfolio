@@ -2,3 +2,7 @@
 target/
 test-output/
 bin/
+
+students.json
+Students_API_Collection*
+Students_API_Test_Cases*

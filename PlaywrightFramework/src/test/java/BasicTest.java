@@ -191,7 +191,7 @@ assertThat(bookingRefLocator.first()).isVisible(new LocatorAssertions.IsVisibleO
 
 //seat count reduction check
 page.locator("#nav-events").click();
-page.waitForTimeout(1000);
+page.waitForTimeout(1000); 
 Locator eventCardsafterBooking=page.getByTestId("event-card");
 eventCards.first().waitFor();
 //Visibility of the card which we have added
